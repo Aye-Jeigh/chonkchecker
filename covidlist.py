@@ -14,4 +14,3 @@ for key in data:
     continue
   else:
     print(F"{fullname} has got the covid")
-    print(injury)
