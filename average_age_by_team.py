@@ -17,7 +17,4 @@ for key in data:
   agedata[team].append(age)
 
 for team, ages in agedata.items():
-    print(F"The average age of {team} is {sum(ages) / len(ages):.3}")
-
-
-
+  print(F"The average age of {team} is {sum(ages) / len(ages):.3}")
